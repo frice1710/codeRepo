@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="jstut.js"></script>
+
+
+
+	<style>
+		body{font-size:1.6em;}
+		.hidden{display:none;}
+		.show{display:inline; !important}
+		button{
+			border: 2px solid black; background: #E5e4e2;
+			font-size: .5em; font-weight: bold; color:black;
+			padding: .8em 2em;
+			margin-top:.4em;
+		}
+
+
+
+	</style>
+
+
+	<title></title>
+</head>
+<body>
+
+<p id="sayHello"></p>
+
+<script>
+	var yourName= prompt("Whats your name?");
+
+	if(yourName !=null){ 
+
+		document.getElementById("sayHello").innerHTML= "Hellob" + yourName;
+	}else{
+		alert("Please enter a name in next time");
+	}
+
+
+ 
+  // If performs different actions depending on conditions
+  
+ 
+    // Set text in an HTML element with the id sayHello
+    // You concatenate (combine) strings with +
+   
+
+
+</script>
+
+</body>
+</html>
